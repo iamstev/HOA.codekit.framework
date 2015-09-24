@@ -1,0 +1,18 @@
+$connect_blue:	rgb(0,153,255);
+$hoa_blue:		rgb(0,43,71);
+$housing_green:	rgb(0,168,119);
+$hoa_dk_green:	rgb(0,99,89);
+$hoa_pink:		rgb(255,141,119);
+$hoa_gray:      rgb(64,53,53);
+
+$twitter_blue:  #00B0FD;
+$facebook_blue: #3B5B99;
+
+$c_red: #9B3333;
+$lt_gray: #EEEEEE;
+$dk_gray: #333333;
+
+.hoa_blue_text{ color:$hoa_blue; }
+.hoa_pink_text{ color:$hoa_pink; }
+.housing_green_text{ color:$housing_green; }
+.red_text{ color: $c_red; }
