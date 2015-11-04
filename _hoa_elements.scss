@@ -1,0 +1,74 @@
+@mixin hoa_label{
+    text-transform:uppercase;
+    display:block;
+    font-size:.85em;
+    margin:1em 0 3px 0;
+    color:$dk_gray;
+}
+
+
+
+
+// AJAX Modal
+#modal_content{
+    @include clearfix;
+}
+
+// Single Input Modal
+.single_input_modal{
+	p{
+		line-height:1.5;
+	}
+	button{
+		@include button($dk_gray);
+		font-size: .8em;
+	}
+	input[type="text"]{
+		width:100%;
+		box-sizing:border-box;
+		outline:none;
+		border: 1px solid #DDD;
+		-webkit-appearance: none;
+		font-size:2.0em;
+		padding:5px;
+		border-radius:3px;
+		&:focus{
+			box-shadow: 0 0 5px $connect_blue;
+			border: 1px solid $connect_blue;
+			border-radius:0;
+		}
+		@include transition (border-color 0.3s linear, box-shadow 0.3s linear, border-radius 0.3s linear);
+	}
+	.button_right{
+		display:block;
+		float:right;
+		margin:1em 0 0 0;
+
+	}
+}
+
+
+.error-block{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:500;
+    box-sizing: border-box;
+    padding:1em;
+    background-color:rgba(255,255,255, .9);
+    &.red{
+        color: white;
+        background-color:transparentize($c_red, .03);
+    }
+    p{
+        line-height:1.5;
+        margin:0 0 1em 0;
+    }
+}
+
+#error-banner{
+
+}
