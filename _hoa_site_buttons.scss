@@ -1,0 +1,81 @@
+div#sitebuttons{
+	width:100%;
+	background-color:tint($hoa_blue, 10%);
+	border-bottom:solid 1px tint($hoa_blue, 15%);
+	padding:0 0 1px 0;
+	ul{
+		@include clearfix;
+		padding: 0;
+		width:95%;
+		max-width:1400px;
+		margin: 0 auto;
+		li{
+			display:block;
+			float:left;
+			color:white;
+			margin:0;
+			padding:10px;
+			width:160px;
+			box-sizing:border-box;
+			@include transition(background-color 0.5s ease-in-out);
+			img{
+				display:block;
+				max-height:50px;
+				margin:0 auto;
+			}
+			&.sitebutton_connect{
+				background-color:tint($hoa_blue, 15%);
+				margin-right:15px;
+				&:hover{
+					background-color:$connect_blue;
+				}
+			}
+			&.sitebutton_housing{
+				background-color:tint($hoa_blue, 15%);
+				&:hover{
+					background-color:$housing_green;
+				}
+			}
+            &.sitebutton_main{
+                margin-right:15px;
+				background-color:tint($hoa_blue, 15%);
+				&:hover{
+					background-color:$hoa_blue;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width:750px) {
+	div#sitebuttons{
+		ul{
+			max-width: 160px+160px+15px;
+		}
+	}
+}
+@media screen and (max-width:353px) {
+	div#sitebuttons{
+		ul{
+			li{
+				img{
+					max-height:30px;
+				}
+				width:48%;
+				&.connect{
+					margin-right:2%;
+				}
+				&.sitebutton_main{
+					margin-right:2%;
+				}
+				&.sitebutton_housing{
+					margin-right:0;
+				}
+			}
+		}
+	}
+}
+@media print{
+	div#sitebuttons{
+		display:none;
+	}
+}
