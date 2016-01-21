@@ -1,5 +1,17 @@
 // VERSION 1.0.5
 
+function closeTopError(){
+	"use strict";
+	document.getElementById('top_error').style.display = 'none';
+	document.getElementById('top_error').innerHTML = '';
+}
+function topError(c){
+	"use strict";
+	document.getElementById('top_error').innerHTML = c;
+	document.getElementById('top_error').style.display = 'block';
+}
+
+
 
 function showModal(div, blackoutcolor) {
     "use strict";
