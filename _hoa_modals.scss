@@ -36,4 +36,10 @@
 		margin:1em 0 0 0;
 
 	}
+    &.red{
+        button{
+            @include button(white);
+            font-size: .8em;
+        }
+    }
 }
