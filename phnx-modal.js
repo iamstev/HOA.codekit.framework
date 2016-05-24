@@ -35,12 +35,18 @@ function hideModal(div) {
 }
 
 
-function fullScreenLoad(action) {
+function fullScreenLoad(action,delay) {
     "use strict";
-    if (action === 'show') {
+    if(action === 'show') {
         document.getElementById('fullscreenload').style.display = 'block';
     }
-    if (action === 'hide'){
-        document.getElementById('fullscreenload').style.display = 'none';
+    if(action === 'hide'){
+		if(typeof delay === 'number'){
+			setTimeout(function(){
+				document.getElementById('fullscreenload').style.display = 'none';
+			}, delay);
+		}else{
+	        document.getElementById('fullscreenload').style.display = 'none';
+		}
     }
 }
