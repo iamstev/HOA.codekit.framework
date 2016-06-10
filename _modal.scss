@@ -142,6 +142,9 @@ $phnx_load_img_height:		64px;
 	}}}
 	&.red{ .modal-wrap{ .modal{
 		background-color:$c_red;
+        label{
+            color:white;
+        }
 		h1{
 			color:white;
 			border-bottom:solid 1px white;

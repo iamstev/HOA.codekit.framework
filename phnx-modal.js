@@ -1,4 +1,4 @@
-// VERSION 1.0.5
+// VERSION 1.1
 
 function closeTopError(){
 	"use strict";
@@ -35,6 +35,9 @@ function hideModal(div) {
 }
 
 
+// show success http://goo.gl/wnmwIl
+// future: add this for showing success on fulscreen hide
+
 function fullScreenLoad(action,delay) {
     "use strict";
     if(action === 'show') {
@@ -49,4 +52,53 @@ function fullScreenLoad(action,delay) {
 	        document.getElementById('fullscreenload').style.display = 'none';
 		}
     }
+}
+
+
+
+function basicModalCleanup(){
+    document.getElementById('modal_h1').innerHTML = '';
+    document.getElementById('modal_content').innerHTML = '';
+	$('#modal_close').unbind('click');
+}
+function basicModal(u,d1){
+    fullScreenLoad('show');
+    $('#modal_close').click(function(){ basicModalCleanup(); });
+	var ajx = $.get(
+		u,
+		{data1:d1},
+		function( data ) {
+            if(data.error === '0'){
+                document.getElementById('modal_h1').innerHTML = data.h1;
+                document.getElementById('modal_content').innerHTML = data.html;
+                showModal('ajax-modal');
+                fullScreenLoad('hide');
+            }else if(data.error === '1'){
+                document.getElementById('modal_h1').innerHTML = data.h1;
+                document.getElementById('modal_content').innerHTML = data.html;
+                showModal('ajax-modal');
+                fullScreenLoad('hide');
+            }else if(data.error === '2'){
+                window.location = data.redir;
+            }else if(data.error === '3'){
+                fullScreenLoad('hide');
+                topError(data.html);
+            }else if(data.error === '4'){
+				// Do not use error 4 in basicModal
+				alert('error 4');
+            }else{
+                document.getElementById('modal_h1').innerHTML = 'Error';
+                document.getElementById('modal_content').innerHTML = 'There was an error. [ref: unspecified]';
+                showModal('ajax-modal');
+                fullScreenLoad('hide');
+            }
+		},
+		"json"
+	);
+	ajx.fail( function(){
+        document.getElementById('modal_h1').innerHTML = 'Error';
+        document.getElementById('modal_content').innerHTML = 'There was an error. [ref: ajax fail]';
+        showModal('ajax-modal');
+		fullScreenLoad('hide');
+	});
 }
