@@ -62,6 +62,7 @@ function basicModalCleanup(){
 	$('#modal_close').unbind('click');
 }
 function basicModal(u,d1){
+	closeTopError();
     fullScreenLoad('show');
     $('#modal_close').click(function(){ basicModalCleanup(); });
 	var ajx = $.get(
@@ -87,10 +88,8 @@ function basicModal(u,d1){
 				// Do not use error 4 in basicModal
 				alert('error 4');
             }else{
-                document.getElementById('modal_h1').innerHTML = 'Error';
-                document.getElementById('modal_content').innerHTML = 'There was an error. [ref: unspecified]';
-                showModal('ajax-modal');
-                fullScreenLoad('hide');
+				fullScreenLoad('hide');
+                topError('<p>There was an error. [ref: unspecified]</p>');
             }
 		},
 		"json"
