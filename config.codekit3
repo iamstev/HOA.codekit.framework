@@ -9,19 +9,6 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/_hoa_colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_hoa_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/_hoa_elements.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -35,32 +22,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_hoa_errors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_hoa_errors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_hoa_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_hoa_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/_hoa_framework.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -70,19 +31,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_hoa_framework.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_hoa_modals.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_hoa_modals.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -122,19 +70,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_modal.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_old_bourbon_button.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_old_bourbon_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
