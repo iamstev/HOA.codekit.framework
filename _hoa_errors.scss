@@ -11,7 +11,7 @@
     background-color:rgba(255,255,255, .9);
     &.red{
         color: white;
-        background-color:transparentize($c_red, .03);
+        background-color:transparentize($c_red, .1);
     }
     p{
         line-height:1.5;

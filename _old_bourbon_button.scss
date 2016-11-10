@@ -103,7 +103,7 @@
   $stop-gradient: adjust-color($base-color, $saturation:  9%,  $lightness: -11%);
   $text-shadow:   adjust-color($base-color, $saturation:  15%, $lightness: -18%);
 
-  @if is-light($base-color) {
+  @if (lightness($base-color) < 50){
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -122,7 +122,7 @@
   display: inline-block;
   font-size: $textsize;
   font-weight: bold;
-  @include linear-gradient ($base-color, $stop-gradient);
+  background-image: linear-gradient($base-color, $stop-gradient);
   padding: $padding;
   text-decoration: none;
   text-shadow: 0 1px 0 $text-shadow;
@@ -151,7 +151,7 @@
 
     box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
     cursor: pointer;
-    @include linear-gradient ($base-color-hover, $stop-gradient-hover);
+    background-image: linear-gradient($base-color-hover, $stop-gradient-hover);
   }
 
   &:active:not(:disabled),
@@ -182,7 +182,7 @@
   $text-shadow:   adjust-color($base-color, $red: -140, $green: -141, $blue: -114);
   $third-stop:    adjust-color($base-color, $red: -86,  $green: -75,  $blue: -48);
 
-  @if is-light($base-color) {
+  @if (lightness($base-color) < 50){
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -205,7 +205,7 @@
   display: inline-block;
   font-size: $textsize;
   font-weight: bold;
-  @include linear-gradient(top, $base-color 0%, $second-stop 50%, $third-stop 50%, $fourth-stop 100%);
+  background-image: linear-gradient(top, $base-color 0%, $second-stop 50%, $third-stop 50%, $fourth-stop 100%);
   padding: $padding;
   text-align: center;
   text-decoration: none;
@@ -232,10 +232,10 @@
     }
 
     cursor: pointer;
-    @include linear-gradient(top, $first-stop-hover  0%,
-                                  $second-stop-hover 50%,
-                                  $third-stop-hover  50%,
-                                  $fourth-stop-hover 100%);
+    background-image: linear-gradient(top, $first-stop-hover  0%,
+                                   $second-stop-hover 50%,
+                                   $third-stop-hover  50%,
+                                   $fourth-stop-hover 100%);
   }
 
   &:active:not(:disabled),
@@ -262,7 +262,7 @@
   $stop-gradient: adjust-color($base-color, $hue:  8, $saturation:  14%, $lightness: -10%);
   $text-shadow:   adjust-color($base-color, $hue:  5, $saturation: -19%, $lightness: -15%);
 
-  @if is-light($base-color) {
+  @if (lightness($base-color) < 50){
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -285,7 +285,7 @@
   font-size: $textsize;
   font-weight: normal;
   line-height: 1;
-  @include linear-gradient ($base-color, $stop-gradient);
+  background-image: linear-gradient($base-color, $stop-gradient);
   padding: $padding;
   text-align: center;
   text-decoration: none;
@@ -323,7 +323,7 @@
     border-color: $border-top $border-sides $border-bottom;
     box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
     cursor: pointer;
-    @include linear-gradient ($base-color-hover, $stop-gradient-hover);
+    background-image: linear-gradient($base-color-hover, $stop-gradient-hover);
     text-shadow: 0 -1px 1px $text-shadow-hover;
     background-clip: padding-box;
   }
@@ -359,7 +359,7 @@
 @mixin flat($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
 
-  @if is-light($base-color) {
+  @if (lightness($base-color) < 50){
     $color:       hsl(0, 0, 20%);
   }
 

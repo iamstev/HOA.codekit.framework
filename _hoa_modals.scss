@@ -29,7 +29,7 @@
 			border: 1px solid $connect_blue;
 			border-radius:0;
 		}
-		@include transition (border-color 0.3s linear, box-shadow 0.3s linear, border-radius 0.3s linear);
+		transition:border-color 0.3s linear, box-shadow 0.3s linear, border-radius 0.3s linear;
 	}
 	.button_right{
 		display:block;
