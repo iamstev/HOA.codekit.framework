@@ -1,3 +1,13 @@
+@function is-light($hex-color) {
+
+  $-local-red: red(rgba($hex-color, 1));
+  $-local-green: green(rgba($hex-color, 1));
+  $-local-blue: blue(rgba($hex-color, 1));
+  $-local-lightness: ($-local-red * 0.2126 + $-local-green * 0.7152 + $-local-blue * 0.0722) / 255;
+
+  @return $-local-lightness > 0.6;
+}
+
 @mixin button ($style: simple, $base-color: #4294f0, $text-size: inherit, $padding: 7px 18px) {
 
   @if type-of($style) == string and type-of($base-color) == color {
@@ -103,7 +113,7 @@
   $stop-gradient: adjust-color($base-color, $saturation:  9%,  $lightness: -11%);
   $text-shadow:   adjust-color($base-color, $saturation:  15%, $lightness: -18%);
 
-  @if (lightness($base-color) < 50){
+  @if is-light($base-color) {
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -182,7 +192,7 @@
   $text-shadow:   adjust-color($base-color, $red: -140, $green: -141, $blue: -114);
   $third-stop:    adjust-color($base-color, $red: -86,  $green: -75,  $blue: -48);
 
-  @if (lightness($base-color) < 50){
+  @if is-light($base-color) {
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -262,7 +272,7 @@
   $stop-gradient: adjust-color($base-color, $hue:  8, $saturation:  14%, $lightness: -10%);
   $text-shadow:   adjust-color($base-color, $hue:  5, $saturation: -19%, $lightness: -15%);
 
-  @if (lightness($base-color) < 50){
+  @if is-light($base-color) {
     $color:       hsl(0, 0, 20%);
     $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
   }
@@ -359,7 +369,7 @@
 @mixin flat($base-color, $grayscale: false, $textsize: inherit, $padding: 7px 18px) {
   $color:         hsl(0, 0, 100%);
 
-  @if (lightness($base-color) < 50){
+  @if is-light($base-color) {
     $color:       hsl(0, 0, 20%);
   }
 
