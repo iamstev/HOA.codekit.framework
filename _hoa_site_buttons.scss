@@ -17,7 +17,7 @@ div#sitebuttons{
 			padding:10px;
 			width:160px;
 			box-sizing:border-box;
-			@include transition(background-color 0.5s ease-in-out);
+			transition: background-color 0.5s ease-in-out;
 			img{
 				display:block;
 				max-height:50px;

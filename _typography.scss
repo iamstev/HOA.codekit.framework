@@ -3,7 +3,7 @@ $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.5;
 $unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
 $header-line-height: $base-font-size * 1.25;
-$base-border-radius: em(3);
+$base-border-radius: 3em;
 $base-border-color: $lt_gray;
 
 
@@ -179,7 +179,7 @@ $base-border-color: $lt_gray;
 			border-radius:0;
 			background-color:white;
 		}
-		@include transition (0.3s ease-in-out);
+		transition: 0.3s ease-in-out;
 	}
 	input[type="submit"]{
 		box-sizing:border-box;
