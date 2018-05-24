@@ -4,11 +4,24 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "31F69B47-49CB-45DB-AFEC-497F57F68CBC"
+		"uuidString": "07236C6B-1DC5-46DA-8EA0-FA081AAEE66B"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "26680",
 "files": {
+	"\/_hoa_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_hoa_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_hoa_elements.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -22,6 +35,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_hoa_errors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_hoa_errors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_hoa_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_hoa_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_hoa_framework.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -31,6 +70,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_hoa_framework.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_hoa_modals.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_hoa_modals.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -74,6 +126,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_old_bourbon_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_old_bourbon_button.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -96,6 +161,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/font-awesome\/_animated.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_animated.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -135,19 +213,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_fixed-width.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/font-awesome\/_font-awesome.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -230,7 +295,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/font-awesome\/_spinning.scss": {
+	"\/font-awesome\/_screen-reader.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -238,7 +303,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_spinning.css",
+		"oAP": "\/css\/_screen-reader.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -269,8 +334,1517 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/font-awesome\/font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/font-awesome.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/_hacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_hacks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/_options.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_options.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_backward.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_backward.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_bob.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bob.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_bounce-in.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-in.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_bounce-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_buzz-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_buzz-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_buzz.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_buzz.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_float.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_float.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_forward.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_forward.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_grow-rotate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_grow-rotate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_grow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_grow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_hang.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_hang.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_pop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_pop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_pulse-grow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_pulse-grow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_pulse-shrink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_pulse-shrink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_push.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_push.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_rotate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_rotate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_shrink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shrink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_sink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_sink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_skew-backward.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_skew-backward.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_skew-forward.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_skew-forward.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_skew.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_skew.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-bottom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-bottom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-horizontal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-horizontal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-skew.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-skew.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-to-bottom-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-to-bottom-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-to-top-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-to-top-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/2d-transitions\/_wobble-vertical.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_wobble-vertical.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_back-pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_back-pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_bounce-to-bottom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-to-bottom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_bounce-to-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-to-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_bounce-to-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-to-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_bounce-to-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bounce-to-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_fade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_fade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_radial-in.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_radial-in.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_radial-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_radial-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_rectangle-in.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_rectangle-in.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_rectangle-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_rectangle-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_shutter-in-horizontal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shutter-in-horizontal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_shutter-in-vertical.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shutter-in-vertical.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_shutter-out-horizontal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shutter-out-horizontal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_shutter-out-vertical.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shutter-out-vertical.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_sweep-to-bottom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_sweep-to-bottom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_sweep-to-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_sweep-to-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_sweep-to-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_sweep-to-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/background-transitions\/_sweep-to-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_sweep-to-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_border-fade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_border-fade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_hollow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_hollow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_outline-in.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_outline-in.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_outline-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_outline-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_overline-from-center.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_overline-from-center.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_overline-from-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_overline-from-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_overline-from-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_overline-from-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_overline-reveal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_overline-reveal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_reveal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_reveal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_ripple-in.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_ripple-in.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_ripple-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_ripple-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_round-corners.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_round-corners.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_trim.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_trim.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_underline-from-center.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_underline-from-center.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_underline-from-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_underline-from-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_underline-from-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_underline-from-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/border-transitions\/_underline-reveal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_underline-reveal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/curls\/_curl-bottom-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_curl-bottom-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/curls\/_curl-bottom-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_curl-bottom-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/curls\/_curl-top-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_curl-top-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/curls\/_curl-top-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_curl-top-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-back.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-back.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-bob.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-bob.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-bounce-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-bounce-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-bounce.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-bounce.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-buzz-out.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-buzz-out.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-buzz.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-buzz.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-down.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-down.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-drop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-drop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-fade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-fade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-float-away.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-float-away.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-float.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-float.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-forward.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-forward.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-grow-rotate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-grow-rotate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-grow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-grow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-hang.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-hang.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-pop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-pop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-pulse-grow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-pulse-grow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-pulse-shrink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-pulse-shrink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-push.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-push.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-rotate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-rotate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-shrink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-shrink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-sink-away.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-sink-away.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-sink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-sink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-spin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-spin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-up.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-up.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-wobble-horizontal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-wobble-horizontal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/icons\/_icon-wobble-vertical.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_icon-wobble-vertical.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_box-shadow-inset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_box-shadow-inset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_box-shadow-outset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_box-shadow-outset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_float-shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_float-shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_glow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_glow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_grow-shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_grow-shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_shadow-radial.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shadow-radial.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/shadow-and-glow-transitions\/_shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-bottom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-bottom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-float-bottom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-float-bottom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-float-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-float-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-float-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-float-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-float-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-float-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-left.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-left.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-right.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-right.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/effects\/speech-bubbles\/_bubble-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hover\/effects\/css\/_bubble-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hover\/hover.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/hover.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/jquery-1.11.1.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/min\/jquery-1.11.1.min-min.js",
@@ -280,6 +1854,7 @@
 		},
 	"\/modernizr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/min\/modernizr-min.js",
@@ -289,6 +1864,7 @@
 		},
 	"\/phnx-modal.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/min\/phnx-modal-min.js",
@@ -305,7 +1881,8 @@
 	"creationDate": 500310767,
 	"displayValue": "HOA.codekit.framework",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "defaultFrameworkIcon"
+	"iconImageName": "defaultFrameworkIcon",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -313,6 +1890,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -709,6 +2287,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -716,6 +2298,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -748,6 +2334,10 @@
 		"camelcase": {
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
 			},
 		"class-methods-use-this": {
 			"active": 0,
@@ -809,6 +2399,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -825,9 +2419,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -852,6 +2454,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -885,9 +2491,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -913,6 +2519,14 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -922,14 +2536,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -945,9 +2551,17 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -963,6 +2577,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1165,6 +2783,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1245,6 +2867,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -1276,6 +2902,10 @@
 		"no-return-assign": {
 			"active": 0,
 			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-script-url": {
 			"active": 0,
@@ -1437,6 +3067,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1473,6 +3107,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1481,9 +3119,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1509,6 +3155,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
@@ -1528,6 +3178,10 @@
 		"semi-spacing": {
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
 			},
 		"sort-imports": {
 			"active": 0,
@@ -1569,11 +3223,19 @@
 			"active": 0,
 			"optionString": "'safe'"
 			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -1977,7 +3639,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2010,6 +3673,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2020,7 +3684,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2044,21 +3710,14 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2090,13 +3749,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2105,7 +3764,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2113,7 +3773,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2123,7 +3785,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2151,7 +3814,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2198,9 +3862,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
@@ -2341,6 +4007,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
