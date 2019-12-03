@@ -373,4 +373,26 @@ $base-background-color: white;
 		}
 	}
 
+	figure.image-style-side{
+		max-width:50%;
+		float:right;
+		margin-left:1rem;
+	}
+	figure.image{
+		margin-bottom:0.5rem;
+		text-align: center;
+	}
+	figcaption{
+		font-size:0.8rem;
+		line-height: 1.5;
+		background-color:#EEEEEE;
+		text-align: center;
+		display:inline-block;
+	}
+	figure.image-style-side{
+		figcaption{
+			display: block;
+		}
+	}
+
 }
