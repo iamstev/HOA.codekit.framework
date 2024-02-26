@@ -44,13 +44,13 @@ function fullScreenLoad(action,delay) {
         document.getElementById('fullscreenload').style.display = 'block';
     }
     if(action === 'hide'){
-		if(typeof delay === 'number'){
-			setTimeout(function(){
-				document.getElementById('fullscreenload').style.display = 'none';
-			}, delay);
-		}else{
-	        document.getElementById('fullscreenload').style.display = 'none';
-		}
+        if(typeof delay === 'number'){
+            setTimeout(function(){
+                document.getElementById('fullscreenload').style.display = 'none';
+            }, delay);
+        }else{
+            document.getElementById('fullscreenload').style.display = 'none';
+        }
     }
 }
 
